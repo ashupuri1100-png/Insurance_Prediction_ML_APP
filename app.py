@@ -21,6 +21,7 @@ st.image(img_url)
 # LOAD DATA and ML MODEL PART
 
 #STEP 2: Load the dataset
+url = "https://raw.githubusercontent.com/ankitmisk/UIT-data/refs/heads/main/Insurance.csv"
 df = pd.read_csv(url)
 df.sample()
 
