@@ -21,7 +21,6 @@ st.image(img_url)
 # LOAD DATA and ML MODEL PART
 
 #STEP 2: Load the dataset
-url = "https://imgs.search.brave.com/SbQSqTHphByYJybBtaTMr9MAFhLvlDMOPfkHBe2rgk8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/bWFnbmlmaWMuY29t/L2ZyZWUtdmVjdG9y/L2Z1bi1oZWFsdGgt/aW5zdXJhbmNlLWNv/bXBvc2l0aW9uXzIz/LTIxNDc2NjE5Mjcu/anBnP3NlbXQ9YWlz/X3Rlc3RfYiZ3PTc0/MCZxPTgw"
 df = pd.read_csv(url)
 df.sample()
 
