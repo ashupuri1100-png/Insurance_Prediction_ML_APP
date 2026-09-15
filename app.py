@@ -14,7 +14,7 @@ import streamlit as st
 #web Page code
 st.title("HEALTH INSURANCE PREDICTION")
 
-img_url = "https://www.magnific.com/free-photos-vectors/health-insurance"
+img_url = "https://static.vecteezy.com/system/resources/thumbnails/029/936/127/small/health-insurance-illustration-with-medical-document-form-for-healthcare-protection-service-in-flat-cartoon-hand-drawn-background-templates-vector.jpg"
 st.image(img_url)
 
 
