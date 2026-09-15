@@ -90,7 +90,7 @@ if st.button("CLick to Predict"):
         import time
         time.sleep(2)
 
-    final_ans = model.predict([user_df])[0]
+    final_ans = model.predict([all_ans])[0]
 
     if final_ans == 0:
         st.info("✖️customer will not buy the insurance✖️")
